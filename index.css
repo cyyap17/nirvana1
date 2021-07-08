@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* Navigation Section */
+
+.header-logo {
+  height: 5rem;
+}
+
+.nav--bg {
+  background-color: transparent !important;
+}
+
+.nav-link-item {
+  font-family: "Didact Gothic", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4453c4 !important;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-item:active,
+.nav-link-item:hover {
+  border-bottom: 2px solid red;
+  cursor: pointer;
+}
+
+.flag {
+  height: 25px;
+  margin-right: 5px;
+}
+
+.repsonsive-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Header */
+
+header {
+  height: 100vh;
+  background: url("https://media.giphy.com/media/xT9IgwWOpd4sJVuDe0/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-mid {
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 60%;
+}
+
+#sliding-1,
+#sliding-2,
+#sliding-3 {
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 84px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+}
+
+.header-h1-div {
+  text-align: center;
+}
+
+.whatsapp {
+  padding: 2px;
+}
+
+.whatsapp-link:link,
+.whatsapp-link:visited {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(63, 214, 63);
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-link:hover,
+.whatsapp-link:active {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(67, 235, 67);
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-logo {
+  height: 55px;
+  margin-top: 10px;
+}
+
+/* Promotion Section */
+
+.section--promotion {
+  padding-top: 70px;
+  background-color: whitesmoke;
+}
+
+.section--title {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+  border-bottom: 2px solid red;
+}
+
+.section--sub--title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+}
+
+.big--card--margin {
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.card--margin {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Services Section */
+
+.services--section {
+  background-color: whitesmoke;
+  padding-top: 70px;
+}
+
+.services--li {
+  display: flex;
+  list-style: none;
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 600;
+  color: #4f4fb8;
+  height: 35px;
+  border-radius: 15px;
+  border: 1px solid #4453c4;
+}
+
+.special--li {
+  margin-right: 30px !important;
+}
+
+.services--li:hover,
+.services--li:active {
+  cursor: pointer;
+}
+
+.active-li {
+  background-color: #4453c4;
+  color: whitesmoke;
+}
+
+.services-h4 {
+  text-align: start;
+  margin-bottom: 10px;
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+}
+
+.services-p {
+  text-align: justify;
+  margin-bottom: 10px;
+  font-family: "Capriola", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #4453c4 !important;
+  letter-spacing: 7px;
+  line-height: 1.3em;
+}
+
+.disactive-row {
+  display: none;
+}
+
+.active-row {
+  display: block;
+}
+
+.promotion--button:visited,
+.promotion--button:link {
+  background-color: #4453c4;
+  color: white;
+}
+
+.promotion--button:hover,
+.promotion--button:active {
+  color: whitesmoke;
+}
